@@ -1,0 +1,22 @@
+{
+  "name": "project-node",
+  "version": "1.0.0",
+  "description": "project-node",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules server/index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jest-babel": "^1.0.1",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
