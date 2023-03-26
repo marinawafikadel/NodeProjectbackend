@@ -21,7 +21,7 @@ app.get("/devices", (req, res) => {
 
   app.get("/devices/:id", (req, res) => {
     let id=req.params.id
-    conaole.log(id)
+    console.log(id)
     res.json({ data: Mydata.Device_details_object[id-1]});
   });  
   app.post("/user", (req, res) => {
